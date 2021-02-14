@@ -2,9 +2,11 @@ import React, { useState } from 'react'
 
 const Search = () => {
     return (
-        <div>
-
-        </div>
+        <section className='search'>
+            <form>
+                <input type='text' className='form-control' placeholder='Search for characters' />
+            </form>
+        </section>
     )
 }
 
